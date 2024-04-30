@@ -122,6 +122,10 @@ html, body {
 }
 @media (max-width: 746px) {
 
+    .mother {
+        margin-right: -73px;
+    }
+    
     .mobilemenu {
         display: block;
         font-size: 30px;
@@ -133,7 +137,6 @@ html, body {
 
     .mother {
         justify-content: space-between;
-        margin: 0 10px;
     }
 
     .left {
@@ -151,6 +154,14 @@ html, body {
 
     .rightimg {
         margin: 20px -23px 0px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        margin-right: -73px;
+        font-size: 40px;
+        padding: 10px;
+
     }
 }
 
