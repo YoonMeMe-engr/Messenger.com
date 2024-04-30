@@ -1,0 +1,157 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mother {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    position: sticky;
+    opacity: 0.9;
+    border-bottom: 1px solid lightgray;
+    height: 100px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+.menuItem:hover {
+    border-bottom-style: solid;
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.maincontainer {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+   
+}
+
+.inner {
+    width: 300px;
+}
+
+.textheader {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    display: block;
+    border: 1px solid lightgray;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    background-color: #0084FF;
+    padding: 10px;
+    color: white;
+    
+}
+
+.checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.password {
+    margin-bottom: 10px;
+}
+
+.MicroLogo {
+    width: 150px;
+    height: 43px;
+    display: block;
+}
+
+.right {
+    display: inline-block;
+    width: 50%;
+}
+
+.rightimg {
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.footer {
+    font-size: 35px;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 30px;
+
+}
+@media (max-width: 746px) {
+
+    .mobilemenu {
+        display: block;
+        font-size: 30px;
+    }
+
+    .menucontainer {
+        display: none;
+    }
+
+    .mother {
+        justify-content: space-between;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .inner {
+        width: 64%;
+        margin: 0 auto;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .inner {
+        width: 95%;
+    }
+}
+
