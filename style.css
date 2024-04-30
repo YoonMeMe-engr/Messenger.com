@@ -133,6 +133,7 @@ html, body {
 
     .mother {
         justify-content: space-between;
+        margin: 0 10px;
     }
 
     .left {
@@ -147,11 +148,21 @@ html, body {
     .right {
         width: 100%;
     }
+
+    .rightimg {
+        margin: 20px -60px 0px;
+    }
 }
 
 @media (max-width: 375px) {
     .inner {
         width: 95%;
+    }
+
+    .footer {
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 10px;
     }
 }
 
