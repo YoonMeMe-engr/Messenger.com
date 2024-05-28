@@ -155,11 +155,14 @@ a:hover {
 
     .mother {
         border-bottom: none;
+        z-index: 1;
     }
     
     .mobilemenu {
-        display: block;
+        display: inline;
         margin-right: 20px;
+        cursor: pointer;
+        user-select: none;
     }
 
     .mobileMenuline {
