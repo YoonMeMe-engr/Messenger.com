@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Yaldevi:wght@600;700&display=swap');
+
 html, body {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mother {
@@ -16,9 +19,10 @@ html, body {
     height: 100px;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
+.logo img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
 }
 
 .menuItem {
@@ -87,6 +91,19 @@ a:hover {
     width: 300px;
 }
 
+.gradient-text{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        83.84deg, rgb(0, 136, 255) -6.87%, rgb(160, 51, 255) 26.54%, rgb(255, 92, 135) 58.58%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 45px;
+}
+
 .textheader {
     margin-bottom: 20px;
     font-size: 20px;
@@ -149,6 +166,22 @@ a:hover {
     background-color: #FAFAFA;
     text-align: center;
     padding: 30px;
+}
+
+.languages form select{
+    border: none;
+    outline: none;
+    color: inherit;
+    overflow: scroll;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.languages:hover {
+    border-bottom-style: solid;
+    display: inline-block;
 }
 
 @media (max-width: 746px) {
