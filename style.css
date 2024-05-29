@@ -53,6 +53,10 @@ html, body {
     flex-direction: column;
 }
 
+.overLayMenu:hover {
+    border-bottom-style: solid;
+}
+
 .overLayMenuTextContainer {
     background-color: #FAFAFA;
     margin-bottom: 5px;
